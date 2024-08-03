@@ -1,0 +1,91 @@
+body {
+    background-color: var(--color-background);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--White-color);
+    height: 520px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px var(--strong-gray);
+    border: 1px solid var(--strong-gray);
+}
+
+.card .img-ilustration {
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card .itens{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.card .itens .title {
+    background-color: var(--color-background);
+    font-size: 1.3rem;
+    font-weight: 800;
+    width: 80px;
+    height: 30px;
+    padding: 8px 13px;
+    border-radius: 5px;
+}
+
+.card .itens .date-pub {
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+}
+
+.card .itens .link-1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in;  
+}
+
+.card .itens .link-1:hover {
+    color: var(--color-background);
+}
+
+.card .itens .text {
+    font-size: 1.6rem;
+    max-width: 90%;
+    color: var(--light-gray);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.card .avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    width: 100%;
+}
+
+.card .avatar .img-avatar {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.card .avatar .user {
+    font-weight: 800;
+    font-size: 1.3rem;
+}

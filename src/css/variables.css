@@ -1,0 +1,7 @@
+:root {
+    --color-background: hsl(47, 88%, 63%);
+    --White-color:hsl(0, 0%, 100%);
+    --light-gray:hsl(0, 0%, 42%);
+    --strong-gray:hsl(0, 0%, 7%);
+    --Figtree: "Figtree", sans-serif;
+}
