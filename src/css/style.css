@@ -53,6 +53,7 @@ body {
 }
 
 .card .itens .link-1{
+    color: #000;
     font-size: 2.3rem;
     font-weight: 700;
     cursor: pointer;
